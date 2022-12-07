@@ -1,6 +1,7 @@
 import React from "react";
 import { nanoid } from "nanoid";
 import Die from "./Die";
+import Github from "./Github";
 import Confetti from "react-confetti";
 
 export default function App() {
@@ -115,6 +116,7 @@ export default function App() {
       <button className="roll-dice" onClick={rollDice}>
         {tenzies ? "New Game" : "Roll"}
       </button>
+      <Github link="https://github.com/Dalton123/tenzies" />
     </main>
   );
 }
