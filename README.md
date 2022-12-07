@@ -1,5 +1,7 @@
 # Practice React Project: Tenzies
 
+See this app live here - [https://tenzies-game-nq64.onrender.com](https://tenzies-game-nq64.onrender.com)
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
