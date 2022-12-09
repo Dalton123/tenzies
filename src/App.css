@@ -19,6 +19,13 @@ body::-webkit-scrollbar {
   width: 0;
 }
 
+.github {
+  position: fixed;
+  bottom: 10px;
+  left: 15px;
+  filter: invert(1);
+}
+
 main {
   border-radius: 5px;
   padding: 20px;
@@ -159,6 +166,11 @@ main {
   box-shadow: inset 5px 5px 10px -3px rgba(0, 0, 0, 0.7);
 }
 
+canvas {
+  width: 100%;
+  height: 100%;
+}
+
 header {
   position: fixed;
   top: 0;
@@ -167,6 +179,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  color: #0b2434;
 }
 @media (min-width: 900px) {
   header {
